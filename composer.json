@@ -1,0 +1,32 @@
+{
+  "name": "bakhritdinov/sms_manager",
+  "description": "Manager with the ability to automatically switch SMS gateway",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "bakhritdinov",
+      "email": "bobur.bakhritdinov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "illuminate/database": ">=5.7",
+    "illuminate/support": ">=5.7",
+    "illuminate/translation": ">=5.7",
+    "illuminate/config": ">=5.7"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bakhritdinov\\SMSManager\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Bakhritdinov\\SMSManager\\Tests\\": "tests"
+    }
+  }
+}

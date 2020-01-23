@@ -1,0 +1,1 @@
+# SMS Manager with opportunity automatic switching gateway
