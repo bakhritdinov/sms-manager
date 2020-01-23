@@ -12,10 +12,10 @@ use Bakhritdinov\SMSManager\Exceptions\SmsRetryTimeException;
 use Bakhritdinov\SMSManager\Exceptions\SmsGatewayIsNotImplementedException;
 
 /**
- * Class SMSGatewayTest
+ * Class SMSManagerTest
  * @package Bakhritdinov\SMSManager\Tests\Feature
  */
-class SMSGatewayTest extends TestCase
+class SMSManagerTest extends TestCase
 {
     use  RefreshDatabase;
 
