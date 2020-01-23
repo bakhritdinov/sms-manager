@@ -1,6 +1,6 @@
 {
-  "name": "bakhritdinov/sms_manager",
-  "description": "Manager with the ability to automatically switch SMS gateway",
+  "name": "bakhritdinov/sms-manager",
+  "description": "SMS Manager with opportunity automatic switching gateway",
   "license": "MIT",
   "type": "library",
   "authors": [
