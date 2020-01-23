@@ -8,7 +8,7 @@ The package provides opportunity to implement your own SMS gateways however you 
 composer require bakhritdinov/sms-manager
 ```
 
-###Laravel
+### Laravel
 Register "Bakhritdinov\SMSManager\Support\LaravelServiceProvider" to the config/app.php configuration file:
 
 ```php
